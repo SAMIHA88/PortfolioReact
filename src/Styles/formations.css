@@ -1,0 +1,21 @@
+.item1 { grid-area: Emsi; }
+.item2 { grid-area: Est; }
+.item3 { grid-area: Bac; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'Emsi Emsi Emsi Emsi Emsi Emsi'
+    'Est Est Est Est Est Est'
+    'Bac Bac Bac Bac Bac Bac';
+  gap: 5px;
+  background-color:#BD8356;
+  padding: 5px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 15px 0;
+  font-size: 20px;
+}
